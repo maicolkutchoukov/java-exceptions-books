@@ -18,7 +18,7 @@ public class Book {
     private int pages;
 
     public Book(String title, String author, String editor, int pages) throws IllegalArgumentException {
-        /*if (title == null || title.isEmpty()) {
+        if (title == null || title.isEmpty()) {
             throw new IllegalArgumentException("Il titolo non può essere vuoto.");
         }
         if (author == null || author.isEmpty()) {
@@ -29,7 +29,7 @@ public class Book {
         }
         if (pages <= 0) {
             throw new IllegalArgumentException("Il numero di pagine deve essere maggiore di zero.");
-        }*/
+        }
 
         this.title = title;
         this.author = author;
