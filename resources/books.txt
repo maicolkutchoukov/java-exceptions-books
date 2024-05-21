@@ -1,2 +1,5 @@
-{Titolo: Harry potter 1, Autore: JK Rowling, Editore: Pippo, Pagine: 400 }
-{Titolo: Harry Potter 2, Autore: Jk Rowling, Editore: Tizio, Pagine: 600 }
+{Titolo: ciao, Autore: ciao, Editore: ciao, Pagine: 100 }
+{Titolo: ciao1, Autore: ciao1, Editore: ciao1, Pagine: 200 }
+{Titolo: ciao2, Autore: ciao2, Editore: ciao2, Pagine: 300 }
+{Titolo: ciao3, Autore: ciao3, Editore: ciao3, Pagine: 200 }
+{Titolo: ciao4, Autore: ciao4, Editore: ciao4, Pagine: 400 }
