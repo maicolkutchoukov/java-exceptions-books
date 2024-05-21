@@ -1,0 +1,2 @@
+{Titolo: Harry potter 1, Autore: JK Rowling, Editore: Pippo, Pagine: 400 }
+{Titolo: Harry Potter 2, Autore: Jk Rowling, Editore: Tizio, Pagine: 600 }
