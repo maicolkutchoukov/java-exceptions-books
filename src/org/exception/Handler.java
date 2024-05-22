@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class handler {
+public class Handler {
     // Metodo per scrivere i libri su un file
     public static void writer(Book[] books, String filePath) {
         try (FileWriter writer = new FileWriter(filePath)) {

@@ -1,9 +1,5 @@
 package org.exception;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Library {
@@ -34,13 +30,15 @@ public class Library {
                 System.out.println("Errore: Inserire un numero valido per il numero di pagine.");
             } catch (IllegalArgumentException e) {
                 System.out.println("Errore: " + e.getMessage());
+            } finally {
+                scanner.close();
             }
         }
         System.out.println("Libri inseriti:");
         for (Book book : books) {
             System.out.println(book);
         }
-        handler.writer(books, "./resources/books.txt");
-        handler.reader("./resources/books.txt");
+        Handler.writer(books, "./resources/books.txt");
+        Handler.reader("./resources/books.txt");
     }
 }
